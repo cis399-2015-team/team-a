@@ -1,0 +1,17 @@
+ubuntu@ip-10-0-8-251:~$ df -a
+Filesystem     1K-blocks   Used Available Use% Mounted on
+/dev/xvda1       8115168 826728   6853164  11% /
+proc                   0      0         0    - /proc
+sysfs                  0      0         0    - /sys
+none                   4      0         4   0% /sys/fs/cgroup
+none                   0      0         0    - /sys/fs/fuse/connections
+none                   0      0         0    - /sys/kernel/debug
+none                   0      0         0    - /sys/kernel/security
+udev              503188     12    503176   1% /dev
+devpts                 0      0         0    - /dev/pts
+tmpfs             101632    324    101308   1% /run
+none                5120      0      5120   0% /run/lock
+none              508144      0    508144   0% /run/shm
+none              102400      0    102400   0% /run/user
+none                   0      0         0    - /sys/fs/pstore
+systemd                0      0         0    - /sys/fs/cgroup/systemd

@@ -1,0 +1,5 @@
+ubuntu@ip-10-0-8-251:~$ free -m
+             total       used       free     shared    buffers     cached
+Mem:           992        347        645          0         49        234
+-/+ buffers/cache:         62        929
+Swap:            0          0          0
