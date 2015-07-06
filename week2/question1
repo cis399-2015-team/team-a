@@ -3,3 +3,6 @@ private ip: 10.0.8.251
 
 instance name: brendan-teama
 private ip: 10.0.8.128
+
+instance name: alex-team a
+private ip: 10.0.8.17
