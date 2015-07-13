@@ -1,2 +1,11 @@
 instance name: austin-team-a
 private ip: 10.0.8.251
+instance id: i-2aec36e2
+
+instance name: brendan-teama
+private ip: 10.0.8.128
+instance id: i-9e0baa56
+
+instance name: alex-team a
+private ip: 10.0.8.17
+instance id: i-8d06a745

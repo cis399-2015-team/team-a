@@ -1,0 +1,468 @@
+Script started on Mon 06 Jul 2015 07:54:24 PM UTC
+]0;ubuntu@ip-10-0-8-128: ~ubuntu@ip-10-0-8-128:~$ exit[2Plsscript apt upgrade[K[K[K[K[Kdate[C[1P[1P[1P[1P[1P[1@u[1@d[1@o[1@e[1P
+[33m
+
+0% [Working][0m
+            
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty InRelease
+[33m
+            
+12% [Connecting to security.ubuntu.com][0m
+                                       
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty-updates InRelease
+[33m
+20% [Connecting to security.ubuntu.com][0m
+                                       
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release.gpg
+[33m
+43% [Connecting to security.ubuntu.com][0m
+                                       
+Get:1 http://us-west-2.ec2.archive.ubuntu.com trusty-updates Release.gpg [933 B]
+[33m
+                                       
+0% [1 Release.gpg 0 B/933 B 0%] [Connecting to security.ubuntu.com][0m[33m
+                                                                   
+100% [Connecting to security.ubuntu.com][0m
+                                        
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release
+[33m
+                                        
+100% [Connecting to security.ubuntu.com (91.189.92.201)][0m[33m
+                                                        
+100% [Release gpgv 58.5 kB] [Waiting for headers] [Connecting to security.ubunt[0m
+                                                                               
+Get:2 http://us-west-2.ec2.archive.ubuntu.com trusty-updates Release [63.5 kB]
+[33m
+23% [Release gpgv 58.5 kB] [2 Release 14.2 kB/63.5 kB 22%] [Connecting to secur[0m[33m
+100% [Release gpgv 58.5 kB] [Connecting to security.ubuntu.com (91.189.92.201)][0m[33m
+                                                                               
+100% [Connecting to security.ubuntu.com (91.189.92.201)][0m[33m
+                                                        
+100% [2 Release gpgv 63.5 kB] [Waiting for headers] [Connecting to security.ubu[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Sources
+[33m
+100% [2 Release gpgv 63.5 kB] [Connecting to security.ubuntu.com (91.189.92.201[0m[33m
+                                                                               
+100% [Connecting to security.ubuntu.com (91.189.92.201)][0m[33m
+                                                        
+100% [Sources 5,000 kB] [Waiting for headers] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Sources
+[33m
+100% [Sources 5,000 kB] [Waiting for headers] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main amd64 Packages
+[33m
+100% [Sources 5,000 kB] [Waiting for headers] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe amd64 Packages
+[33m
+100% [Sources 5,000 kB] [Waiting for headers] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en
+[33m
+                                                                               
+100% [Sources 5,000 kB] [Connecting to security.ubuntu.com (91.189.92.201)][0m
+                                                                           
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en
+[33m
+                                                                           
+100% [Sources 5,000 kB] [Waiting for headers] [Connecting to security.ubuntu.co[0m
+                                                                               
+Get:3 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Sources [212 kB]
+[33m
+35% [Sources 5,000 kB] [3 Sources 31.5 kB/212 kB 15%] [Connecting to security.u[0m[33m
+                                                                               
+100% [Sources 5,000 kB] [Connecting to security.ubuntu.com (91.189.92.201)][0m
+                                                                           
+Get:4 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Sources [123 kB]
+
+                                                                           
+Get:5 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main amd64 Packages [567 kB]
+[33m
+                                                                           
+67% [Sources 5,000 kB] [5 Packages 250 kB/567 kB 44%] [Connecting to security.u[0m[33m
+67% [3 Sources bzip2 0 B] [Sources 5,000 kB] [5 Packages 250 kB/567 kB 44%] [Co[0m[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Connecting to security.ubuntu.co[0m
+                                                                               
+Get:6 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe amd64 Packages [292 kB]
+[33m
+88% [3 Sources bzip2 0 B] [Sources 5,000 kB] [6 Packages 142 kB/292 kB 49%] [Co[0m[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Translation-en
+[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Connecting to security.ubuntu.co[0m
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Translation-en
+[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Waiting for headers] [Connecting[0m
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en_US
+[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Connecting to security.ubuntu.co[0m
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en_US
+[33m
+100% [3 Sources bzip2 0 B] [Sources 5,000 kB] [Connecting to security.ubuntu.co[0m[33m
+                                                                               
+100% [Sources 5,000 kB] [Waiting for headers][0m[33m
+                                             
+100% [4 Sources bzip2 0 B] [Sources 5,000 kB] [Waiting for headers][0m[33m
+                                                                   
+100% [4 Sources bzip2 0 B] [Waiting for headers][0m[33m
+                                                
+100% [4 Sources bzip2 0 B] [Sources 27.9 MB] [Waiting for headers][0m[33m
+                                                                  
+100% [Sources 27.9 MB] [Waiting for headers][0m[33m
+                                            
+100% [5 Packages bzip2 0 B] [Sources 27.9 MB] [Waiting for headers][0m
+                                                                   
+Ign http://security.ubuntu.com trusty-security InRelease
+[33m
+                                                                   
+100% [5 Packages bzip2 0 B] [Sources 27.9 MB][0m
+                                             
+Get:7 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+[33m
+                                             
+100% [5 Packages bzip2 0 B] [Sources 27.9 MB] [7 Release.gpg 933 B/933 B 100%][0m[33m
+                                                                              
+100% [5 Packages bzip2 0 B] [Sources 27.9 MB][0m[33m
+                                             
+100% [Sources 27.9 MB] [Waiting for headers][0m[33m
+                                            
+100% [6 Packages bzip2 0 B] [Sources 27.9 MB] [Waiting for headers][0m
+                                                                   
+Get:8 http://security.ubuntu.com trusty-security Release [63.5 kB]
+[33m
+                                                                   
+99% [6 Packages bzip2 0 B] [Sources 27.9 MB] [8 Release 14.2 kB/63.5 kB 22%][0m[33m
+                                                                            
+99% [Sources 27.9 MB] [8 Release 28.7 kB/63.5 kB 45%][0m[33m
+                                                     
+100% [8 Release 53.3 kB/63.5 kB 84%][0m[33m
+                                    
+100% [Packages 8,235 kB] [8 Release 53.3 kB/63.5 kB 84%][0m[33m
+                                                        
+100% [Packages 8,235 kB][0m[33m
+                        
+100% [Packages 8,235 kB] [8 Release gpgv 63.5 kB][0m[33m
+                                                 
+100% [Packages 8,235 kB][0m[33m
+                        
+100% [Waiting for headers][0m[33m
+                          
+100% [Packages 31.7 MB] [Waiting for headers][0m
+                                             
+Get:9 http://security.ubuntu.com trusty-security/main Sources [87.5 kB]
+[33m
+                                             
+100% [Packages 31.7 MB] [9 Sources 28.6 kB/87.5 kB 33%][0m[33m
+                                                       
+100% [Packages 31.7 MB][0m[33m
+                       
+100% [9 Sources bzip2 0 B] [Packages 31.7 MB][0m[33m
+100% [Packages 31.7 MB] [Waiting for headers][0m[33m
+                                             
+100% [Waiting for headers][0m[33m
+                          
+100% [Translation-en 4,149 kB] [Waiting for headers][0m
+                                                    
+Get:10 http://security.ubuntu.com trusty-security/universe Sources [28.1 kB]
+[33m
+                                                    
+100% [Translation-en 4,149 kB] [10 Sources 28.1 kB/28.1 kB 100%][0m[33m
+                                                                
+100% [Translation-en 4,149 kB] [Waiting for headers][0m[33m
+                                                    
+100% [10 Sources bzip2 0 B] [Translation-en 4,149 kB] [Waiting for headers][0m[33m
+                                                                           
+100% [Translation-en 4,149 kB] [Waiting for headers][0m[33m
+                                                    
+100% [Waiting for headers][0m[33m
+                          
+100% [Translation-en 18.6 MB] [Waiting for headers][0m
+                                                   
+Get:11 http://security.ubuntu.com trusty-security/main amd64 Packages [309 kB]
+[33m
+                                                   
+100% [Translation-en 18.6 MB] [11 Packages 43.1 kB/309 kB 14%][0m[33m
+                                                              
+100% [11 Packages 79.3 kB/309 kB 26%][0m[33m
+                                     
+100% [Translation-en 2,635 kB] [11 Packages 79.3 kB/309 kB 26%][0m[33m
+                                                               
+100% [11 Packages 79.3 kB/309 kB 26%][0m[33m
+                                     
+100% [Translation-en 785 kB] [11 Packages 79.3 kB/309 kB 26%][0m[33m
+                                                             
+100% [11 Packages 79.3 kB/309 kB 26%][0m[33m
+                                     
+100% [11 Packages 289 kB/309 kB 94%][0m[33m
+                                    
+100% [Working][0m[33m
+              
+100% [11 Packages bzip2 0 B][0m[33m
+                            
+100% [Waiting for headers][0m
+                          
+Get:12 http://security.ubuntu.com trusty-security/universe amd64 Packages [111 kB]
+[33m
+                          
+100% [12 Packages 101 kB/111 kB 91%][0m[33m
+                                    
+100% [Working][0m[33m
+              
+100% [12 Packages bzip2 0 B] [Waiting for headers][0m[33m
+                                                  
+100% [Waiting for headers][0m
+                          
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+[33m
+100% [Waiting for headers][0m[33m
+                          
+100% [Translation-en 1,857 kB] [Waiting for headers][0m[33m
+                                                    
+100% [Waiting for headers][0m
+                          
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+[33m
+                          
+100% [Working][0m[33m
+              
+100% [Translation-en 327 kB][0m[33m
+                            
+100% [Working][0m
+              
+Fetched 1,858 kB in 3s (587 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 50%
+
+Reading package lists... 51%
+
+Reading package lists... 51%
+
+Reading package lists... 57%
+
+Reading package lists... 57%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;ubuntu@ip-10-0-8-128: ~ubuntu@ip-10-0-8-128:~$ sudo apt update[K[K[K[Kgrade
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 6%
+
+Reading state information... Done
+
+Calculating upgrade... Done
+The following NEW packages will be installed:
+  linux-headers-3.13.0-57 linux-headers-3.13.0-57-generic
+  linux-image-3.13.0-57-generic
+The following packages will be upgraded:
+  linux-headers-generic linux-headers-virtual linux-image-virtual
+  linux-virtual
+4 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 24.7 MB of archives.
+After this operation, 119 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m
+
+0% [Working][0m
+            
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-3.13.0-57-generic amd64 3.13.0-57.95 [15.2 MB]
+[33m
+            
+0% [1 linux-image-3.13.0-57-generic 0 B/15.2 MB 0%][0m[33m
+                                                   
+61% [Working][0m
+             
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-headers-3.13.0-57 all 3.13.0-57.95 [8,875 kB]
+[33m
+             
+61% [2 linux-headers-3.13.0-57 0 B/8,875 kB 0%][0m[33m
+                                               
+97% [Working][0m
+             
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-headers-3.13.0-57-generic amd64 3.13.0-57.95 [699 kB]
+[33m
+             
+97% [3 linux-headers-3.13.0-57-generic 0 B/699 kB 0%][0m[33m
+                                                     
+100% [Working][0m
+              
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-virtual amd64 3.13.0.57.64 [1,772 B]
+[33m
+              
+100% [4 linux-virtual 0 B/1,772 B 0%][0m[33m
+                                     
+100% [Working][0m
+              
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-image-virtual amd64 3.13.0.57.64 [2,256 B]
+[33m
+              
+100% [5 linux-image-virtual 0 B/2,256 B 0%][0m[33m
+                                           
+100% [Working][0m
+              
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-headers-virtual amd64 3.13.0.57.64 [1,752 B]
+[33m
+              
+100% [6 linux-headers-virtual 0 B/1,752 B 0%][0m[33m
+                                             
+100% [Working][0m
+              
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main linux-headers-generic amd64 3.13.0.57.64 [2,248 B]
+[33m
+              
+100% [7 linux-headers-generic 0 B/2,248 B 0%][0m[33m
+                                             
+100% [Working][0m
+              
+Fetched 24.7 MB in 0s (48.0 MB/s)
+
+[s[0;23r[u[1ASelecting previously unselected package linux-image-3.13.0-57-generic.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 76861 files and directories currently installed.)
+Preparing to unpack .../linux-image-3.13.0-57-generic_3.13.0-57.95_amd64.deb ...
+[s[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] [u[s[24;0f[42m[30mProgress: [  2%][49m[39m [##........................................................] [uDone.
+Unpacking linux-image-3.13.0-57-generic (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [  5%][49m[39m [####......................................................] [u[s[24;0f[42m[30mProgress: [  8%][49m[39m [#####.....................................................] [uSelecting previously unselected package linux-headers-3.13.0-57.
+Preparing to unpack .../linux-headers-3.13.0-57_3.13.0-57.95_all.deb ...
+[s[24;0f[42m[30mProgress: [ 11%][49m[39m [#######...................................................] [uUnpacking linux-headers-3.13.0-57 (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [ 14%][49m[39m [#########.................................................] [u[s[24;0f[42m[30mProgress: [ 17%][49m[39m [##########................................................] [uSelecting previously unselected package linux-headers-3.13.0-57-generic.
+Preparing to unpack .../linux-headers-3.13.0-57-generic_3.13.0-57.95_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 20%][49m[39m [############..............................................] [uUnpacking linux-headers-3.13.0-57-generic (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [ 22%][49m[39m [##############............................................] [u[s[24;0f[42m[30mProgress: [ 25%][49m[39m [###############...........................................] [uPreparing to unpack .../linux-virtual_3.13.0.57.64_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 28%][49m[39m [#################.........................................] [uUnpacking linux-virtual (3.13.0.57.64) over (3.13.0.55.62) ...
+[s[24;0f[42m[30mProgress: [ 31%][49m[39m [###################.......................................] [u[s[24;0f[42m[30mProgress: [ 34%][49m[39m [####################......................................] [uPreparing to unpack .../linux-image-virtual_3.13.0.57.64_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 37%][49m[39m [######################....................................] [uUnpacking linux-image-virtual (3.13.0.57.64) over (3.13.0.55.62) ...
+[s[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] [u[s[24;0f[42m[30mProgress: [ 42%][49m[39m [#########################.................................] [uPreparing to unpack .../linux-headers-virtual_3.13.0.57.64_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 45%][49m[39m [###########################...............................] [uUnpacking linux-headers-virtual (3.13.0.57.64) over (3.13.0.55.62) ...
+[s[24;0f[42m[30mProgress: [ 48%][49m[39m [#############################.............................] [u[s[24;0f[42m[30mProgress: [ 51%][49m[39m [##############################............................] [uPreparing to unpack .../linux-headers-generic_3.13.0.57.64_amd64.deb ...
+[s[24;0f[42m[30mProgress: [ 54%][49m[39m [################################..........................] [uUnpacking linux-headers-generic (3.13.0.57.64) over (3.13.0.55.62) ...
+[s[24;0f[42m[30mProgress: [ 57%][49m[39m [##################################........................] [u[s[24;0f[42m[30mProgress: [ 60%][49m[39m [###################################.......................] [uSetting up linux-image-3.13.0-57-generic (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [ 62%][49m[39m [#####################################.....................] [uRunning depmod.
+update-initramfs: deferring update (hook will be called later)
+Examining /etc/kernel/postinst.d.
+run-parts: executing /etc/kernel/postinst.d/apt-auto-removal 3.13.0-57-generic /boot/vmlinuz-3.13.0-57-generic
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools 3.13.0-57-generic /boot/vmlinuz-3.13.0-57-generic
+update-initramfs: Generating /boot/initrd.img-3.13.0-57-generic
+run-parts: executing /etc/kernel/postinst.d/update-notifier 3.13.0-57-generic /boot/vmlinuz-3.13.0-57-generic
+run-parts: executing /etc/kernel/postinst.d/x-grub-legacy-ec2 3.13.0-57-generic /boot/vmlinuz-3.13.0-57-generic
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-3.13.0-57-generic
+Found kernel: /boot/vmlinuz-3.13.0-55-generic
+Found kernel: /boot/vmlinuz-3.13.0-48-generic
+[?1049h[1;23r[4l[?25l(B[m[37m[40m[1;23r[H[2J[1;1H[1m[37m[45m                                                                                [2;1H                                                                                [3;1H                                                                                [4;1H                                                                                [5;1H                                                                                [6;1H                                                                                [7;1H                                                                                [8;1H                                                                                [9;1H                                                                                [10;1H                                                                                [11;1H                                                                                [12;1H                                                                                [13;1H                                                                                [14;1H                                                                                [15;1H                                                                                [16;1H                                                                                [17;1H                                                                                [18;1H                                                                                [19;1H                                                                                [20;1H                                                                                [21;1H                                                                                [22;1H                                                                                [23;1H                                                                               [23;79H [4h [4l[1;1H(B[m[37m[45mPackage configuration[3;5H[30m[47m┌─────────────────────────────────┤  ├─────────────────────────────────┐[4;5H│ A new version of /boot/grub/menu.lst is available, but the version   │[1m[37m[40m [5;5H(B[m[30m[47m│ installed currently has been locally modified.                       │[1m[37m[40m [6;5H(B[m[30m[47m│                                                                      │[1m[37m[40m [7;5H(B[m[30m[47m│ What would you like to do about menu.lst?                            │[1m[37m[40m [8;5H(B[m[30m[47m│                                                                      │[1m[37m[40m [9;5H(B[m[30m[47m│      install the package maintainer's version                        │[1m[37m[40m [10;5H(B[m[30m[47m│      [37m[41mkeep the local version currently installed                [30m[47m      │[1m[37m[40m [11;5H(B[m[30m[47m│      show the differences between the versions                       │[1m[37m[40m [12;5H(B[m[30m[47m│      show a side-by-side difference between the versions             │[1m[37m[40m [13;5H(B[m[30m[47m│      show a 3-way difference between available versions              │[1m[37m[40m [14;5H(B[m[30m[47m│      do a 3-way merge between available versions (experimental)      │[1m[37m[40m [15;5H(B[m[30m[47m│      start a new shell to examine the situation                      │[1m[37m[40m [16;5H(B[m[30m[47m│                                                                      │[1m[37m[40m [17;5H(B[m[30m[47m│                                                                      │[1m[37m[40m [18;5H(B[m[30m[47m│                                <Ok>                                  │[1m[37m[40m [19;5H(B[m[30m[47m│                                                                      │[1m[37m[40m [20;5H(B[m[30m[47m└──────────────────────────────────────────────────────────────────────┘[1m[37m[40m [21;6H                                                                        [10;12H[?12l[?25h[23;1H(B[m[37m[40m(B[m[39;49m
+[K
+[?1049lUpdating /boot/grub/menu.lst ... done
+
+run-parts: executing /etc/kernel/postinst.d/zz-update-grub 3.13.0-57-generic /boot/vmlinuz-3.13.0-57-generic
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-3.13.0-57-generic
+Found initrd image: /boot/initrd.img-3.13.0-57-generic
+Found linux image: /boot/vmlinuz-3.13.0-55-generic
+Found initrd image: /boot/initrd.img-3.13.0-55-generic
+Found linux image: /boot/vmlinuz-3.13.0-48-generic
+Found initrd image: /boot/initrd.img-3.13.0-48-generic
+done
+[s[24;0f[42m[30mProgress: [ 65%][49m[39m [#######################################...................] [uSetting up linux-headers-3.13.0-57 (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [ 68%][49m[39m [########################################..................] [u[s[24;0f[42m[30mProgress: [ 71%][49m[39m [##########################################................] [uSetting up linux-headers-3.13.0-57-generic (3.13.0-57.95) ...
+[s[24;0f[42m[30mProgress: [ 74%][49m[39m [############################################..............] [u[s[24;0f[42m[30mProgress: [ 77%][49m[39m [#############################################.............] [uSetting up linux-image-virtual (3.13.0.57.64) ...
+[s[24;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] [u[s[24;0f[42m[30mProgress: [ 82%][49m[39m [#################################################.........] [uSetting up linux-headers-generic (3.13.0.57.64) ...
+[s[24;0f[42m[30mProgress: [ 85%][49m[39m [##################################################........] [u[s[24;0f[42m[30mProgress: [ 88%][49m[39m [####################################################......] [uSetting up linux-headers-virtual (3.13.0.57.64) ...
+[s[24;0f[42m[30mProgress: [ 91%][49m[39m [######################################################....] [u[s[24;0f[42m[30mProgress: [ 94%][49m[39m [#######################################################...] [uSetting up linux-virtual (3.13.0.57.64) ...
+[s[24;0f[42m[30mProgress: [ 97%][49m[39m [#########################################################.] [u[s[24;0f[42m[30mProgress: [100%][49m[39m [##########################################################] [u
+[s[0;24r[u[1A[J]0;ubuntu@ip-10-0-8-128: ~ubuntu@ip-10-0-8-128:~$ exit
+Script done on Mon 06 Jul 2015 07:56:39 PM UTC
