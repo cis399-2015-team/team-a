@@ -1,0 +1,27 @@
++++ /tmp/puppet-file20150713-28771-1dcuf9t	2015-07-13 23:50:18.695641000 +0000
+@@ -30,7 +30,7 @@
+
+ RSAAuthentication yes
+ PubkeyAuthentication yes
+-#AuthorizedKeysFile	%h/.ssh/authorized_keys
++#AuthorizedKeysFile     %h/.ssh/authorized_keys
+
+ # Don't read the user's ~/.rhosts and ~/.shosts files
+ IgnoreRhosts yes
+@@ -49,7 +49,7 @@
+ ChallengeResponseAuthentication no
+
+ # Change to no to disable tunnelled clear text passwords
+-#PasswordAuthentication yes
++PasswordAuthentication no
+
+ # Kerberos options
+ #KerberosAuthentication no
+
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Filebucketed /etc/ssh/sshd_config to puppet with sum cac079e87c0ae0d77eafc9b285e36348
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: content changed '{md5}cac079e87c0ae0d77eafc9b285e36348' to '{md5}ff7f4417890bfff874f8303d06d4a5e9'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/mode: mode changed '0644' to '0444'
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh]
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh]
+Notice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 2 events
+Notice: Finished catalog run in 2.88 seconds
