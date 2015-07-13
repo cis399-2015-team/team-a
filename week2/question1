@@ -3,6 +3,9 @@ private ip: 10.0.8.251
 
 instance name: brendan-teama
 private ip: 10.0.8.128
+<<<<<<< HEAD
 
 instance name: alex-team a
 private ip:10.0.8.17
+=======
+>>>>>>> bca35b4c6feaa196572b0ca705f9f95ae79975bf
