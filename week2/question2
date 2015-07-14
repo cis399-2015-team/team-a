@@ -1,0 +1,15 @@
+To find the public ip of a given instance in the ec2 console you can do the following:
+
+When you first log in to the AWS page you will see the "Compute" section on the home page of the console.
+
+Under that section click the EC2 virtual servers, link.
+
+There is a navigation bar on the left and on that bar click the "Instances" link which shows the current running instances.
+The page should now display a big list of running ec2 instances. 
+
+Now, click on one of the instances(there are small boxes to click on that highlight blue when selected)
+and in the section below the list of instances, information about the currently selected one will be dislpayed.
+
+There are a few tabs to look at including: "Description", "Status Checks", "Monitoring", and "Tags".
+Select the "Description" tab and 2 columns of information about your instance will appear. On the right column, there is
+a label for "Public IP:" and this is shows the public ip of the instance.

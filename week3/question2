@@ -1,0 +1,7 @@
+root@ip-10-0-8-251:~# puppet agent -t
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-8-251.us-west-2.compute.internal
+Info: Applying configuration version '1436830067'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: ensure changed 'held' to 'present'
+Notice: Finished catalog run in 0.90 seconds
+
