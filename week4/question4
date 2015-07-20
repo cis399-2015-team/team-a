@@ -1,0 +1,4 @@
+128.223.223.249 - - [20/Jul/2015:23:25:30 +0000] "GET /hello.html HTTP/1.1" 200 425 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+128.223.223.249 - - [20/Jul/2015:23:25:30 +0000] "GET /favicon.ico HTTP/1.1" 404 537 "http://ec2-52-11-60-132.us-west-2.compute.amazonaws.com/hello.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+128.223.223.249 - - [20/Jul/2015:23:39:01 +0000] "GET /hello.html HTTP/1.1" 200 425 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+128.223.223.249 - - [20/Jul/2015:23:39:05 +0000] "GET /hello.html HTTP/1.1" 200 424 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
