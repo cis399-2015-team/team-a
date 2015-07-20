@@ -1,0 +1,12 @@
+From stevev@hexadecimal.uoregon.edu  Mon Jul 20 23:29:37 2015
+Return-Path: <stevev@hexadecimal.uoregon.edu>
+X-Original-To: ubuntu@ec2-52-26-78-214.us-west-2.compute.amazonaws.com
+Delivered-To: ubuntu@ec2-52-26-78-214.us-west-2.compute.amazonaws.com
+Received: from mom (128-223-223-246-wireless.uoregon.edu [128.223.223.246])
+	by ec2-52-26-78-214.us-west-2.compute.amazonaws.com (Postfix) with ESMTP id E1F63428C5
+	for <ubuntu@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>; Mon, 20 Jul 2015 23:29:12 +0000 (UTC)
+From: stevev@hexadecimal.uoregon.edu
+To: ubuntu@ec2-52-26-78-214.us-west-2.compute.amazonaws.com
+Subject: test
+
+test
