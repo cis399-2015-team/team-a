@@ -1,0 +1,10 @@
+The results of our load balancer when we shutdown one of our instances is that the displayed number of healthy host in the
+monitoring tab, dropped to 1. The displayed numebr of unhealthy hosts increased as well.
+When attempting to view the webpage located at the balancer's DNS, it was able to display correctly, our web page on our instance.
+
+When we shut down both of our instances the monitor tab in the EC2 console correctly showed the number of healthy and unhealthy
+hosts, and it also displayed some back-end server errors as well. When trying to access the webpage through the balancer's
+DNS the page displayed was blank, with no description as to why no page was displayed.
+
+After shutting down both, the restoring both, the balancer correctly displays the proper page and the monitoring tab 
+shows accurate information as to the number of healthy and unhealthy instances. 
