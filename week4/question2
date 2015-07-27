@@ -1,0 +1,37 @@
+7:49 ip-10-0-8-223 postfix/qmgr[5072]: 29361428C6: from=<root@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, size=404, nrcpt=1 (queue active)
+Jul 20 23:27:49 ip-10-0-8-223 postfix/smtp[5173]: 29361428C6: to=<stevev@hexidecimal.uoregon.edu>, relay=none, delay=59, delays=59/0/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=hexidecimal.uoregon.edu type=AAAA: Host not found)
+Jul 20 23:27:49 ip-10-0-8-223 postfix/cleanup[5171]: 3026E428C7: message-id=<20150720232749.3026E428C7@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>
+Jul 20 23:27:49 ip-10-0-8-223 postfix/qmgr[5072]: 3026E428C7: from=<>, size=2754, nrcpt=1 (queue active)
+Jul 20 23:27:49 ip-10-0-8-223 postfix/bounce[5174]: 29361428C6: sender non-delivery notification: 3026E428C7
+Jul 20 23:27:49 ip-10-0-8-223 postfix/qmgr[5072]: 29361428C6: removed
+Jul 20 23:27:49 ip-10-0-8-223 postfix/local[5176]: 3026E428C7: to=<root@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jul 20 23:27:49 ip-10-0-8-223 postfix/qmgr[5072]: 3026E428C7: removed
+Jul 20 23:28:58 ip-10-0-8-223 postfix/smtpd[5178]: connect from 128-223-223-246-wireless.uoregon.edu[128.223.223.246]
+Jul 20 23:29:20 ip-10-0-8-223 postfix/smtpd[5178]: E1F63428C5: client=128-223-223-246-wireless.uoregon.edu[128.223.223.246]
+Jul 20 23:29:37 ip-10-0-8-223 postfix/cleanup[5171]: E1F63428C5: message-id=<>
+Jul 20 23:29:37 ip-10-0-8-223 postfix/qmgr[5072]: E1F63428C5: from=<stevev@hexadecimal.uoregon.edu>, size=391, nrcpt=1 (queue active)
+Jul 20 23:29:37 ip-10-0-8-223 postfix/local[5181]: E1F63428C5: to=<ubuntu@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, relay=local, delay=26, delays=26/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jul 20 23:29:37 ip-10-0-8-223 postfix/qmgr[5072]: E1F63428C5: removed
+Jul 20 23:29:38 ip-10-0-8-223 postfix/smtpd[5178]: disconnect from 128-223-223-246-wireless.uoregon.edu[128.223.223.246]
+Jul 20 23:32:06 ip-10-0-8-223 postfix/pickup[5071]: 2F111428C6: uid=0 from=<root>
+Jul 20 23:32:06 ip-10-0-8-223 postfix/cleanup[5192]: 2F111428C6: message-id=<20150720233206.2F111428C6@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>
+Jul 20 23:32:06 ip-10-0-8-223 postfix/qmgr[5072]: 2F111428C6: from=<root@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, size=389, nrcpt=1 (queue active)
+Jul 20 23:32:06 ip-10-0-8-223 postfix/smtp[5194]: connect to hexadecimal.uoregon.edu[2607:8400:2802:2::80df:8e61]:25: Network is unreachable
+Jul 20 23:32:12 ip-10-0-8-223 postfix/smtp[5194]: 2F111428C6: to=<stevev@hexadecimal.uoregon.edu>, relay=hexadecimal.uoregon.edu[128.223.142.97]:25, delay=35, delays=29/0/6.1/0.22, dsn=2.0.0, status=sent (250 2.0.0 t6KNWEOi028206 Message accepted for delivery)
+Jul 20 23:32:12 ip-10-0-8-223 postfix/qmgr[5072]: 2F111428C6: removed
+Jul 20 23:32:43 ip-10-0-8-223 postfix/smtpd[5195]: connect from hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 23:32:43 ip-10-0-8-223 postfix/smtpd[5195]: 8E5F4428C5: client=hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 23:32:43 ip-10-0-8-223 postfix/cleanup[5192]: 8E5F4428C5: message-id=<21933.34077.956015.746789@hexadecimal.uoregon.edu>
+Jul 20 23:32:43 ip-10-0-8-223 postfix/qmgr[5072]: 8E5F4428C5: from=<stevev@hexadecimal.uoregon.edu>, size=1994, nrcpt=1 (queue active)
+Jul 20 23:32:43 ip-10-0-8-223 postfix/local[5197]: 8E5F4428C5: to=<root@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, relay=local, delay=0.05, delays=0.04/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jul 20 23:32:43 ip-10-0-8-223 postfix/qmgr[5072]: 8E5F4428C5: removed
+Jul 20 23:32:43 ip-10-0-8-223 postfix/smtpd[5195]: disconnect from hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 23:36:03 ip-10-0-8-223 postfix/anvil[5180]: statistics: max connection rate 1/60s for (smtp:128.223.223.246) at Jul 20 23:28:58
+Jul 20 23:36:03 ip-10-0-8-223 postfix/anvil[5180]: statistics: max connection count 1 for (smtp:128.223.223.246) at Jul 20 23:28:58
+Jul 20 23:36:03 ip-10-0-8-223 postfix/anvil[5180]: statistics: max cache size 1 at Jul 20 23:28:58
+Jul 20 23:40:03 ip-10-0-8-223 postfix/pickup[5071]: C6A4A428C6: uid=0 from=<root>
+Jul 20 23:40:03 ip-10-0-8-223 postfix/cleanup[5432]: C6A4A428C6: message-id=<20150720234003.C6A4A428C6@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>
+Jul 20 23:40:03 ip-10-0-8-223 postfix/qmgr[5072]: C6A4A428C6: from=<root@ec2-52-26-78-214.us-west-2.compute.amazonaws.com>, size=814, nrcpt=1 (queue active)
+Jul 20 23:40:03 ip-10-0-8-223 postfix/smtp[5434]: connect to hexadecimal.uoregon.edu[2607:8400:2802:2::80df:8e61]:25: Network is unreachable
+Jul 20 23:40:10 ip-10-0-8-223 postfix/smtp[5434]: C6A4A428C6: to=<stevev@hexadecimal.uoregon.edu>, relay=hexadecimal.uoregon.edu[128.223.142.97]:25, delay=6.4, delays=0.01/0/6.1/0.31, dsn=2.0.0, status=sent (250 2.0.0 t6KNeBAJ028286 Message accepted for delivery)
+Jul 20 23:40:10 ip-10-0-8-223 postfix/qmgr[5072]: C6A4A428C6: removed
