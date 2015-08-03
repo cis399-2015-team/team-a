@@ -1,0 +1,35 @@
+You are receiving this email because your Amazon CloudWatch Alarm "team-a-alex-High-Network-Out" in the US-West-2 region has entered the ALARM state, because "Threshold Crossed: 1 datapoint (49008.8) was greater than or equal to the threshold (40000.0)." at "Monday 03 August, 2015 00:28:19 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=team-a-alex-High-Network-Out
+
+Alarm Details:
+- Name:                       team-a-alex-High-Network-Out
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint (49008.8) was greater than or equal to the threshold (40000.0).
+- Timestamp:                  Monday 03 August, 2015 00:28:19 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 40000.0 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:            AWS/EC2
+- MetricName:                 NetworkOut
+- Dimensions:                 [InstanceId = i-16de4dde]
+- Period:                     300 seconds
+- Statistic:                  Average
+- Unit:                       not specified
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:NEW_team-a_alarms]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:NEW_team-a_alarms:ef4f0b8c-4cc5-4a1f-ac36-39c0f079dd0d&Endpoint=agheen@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
