@@ -1,0 +1,5 @@
+1.Host a website that serves as a simple calculator for people to use. Methods of testing will be too see if the website/server is up and running online, if the website can support interaction and inputs, and lastly if the calculator gives the right output.
+2. User population will be math students or anyone in need of a calculator. User support issues that would rise unknown characters being inputted and too many user on the website at once. 
+3.There won’t be any obvious security issues since we won’t having any accounts or private information being held.
+4.Using the puppet apache module made from earlier weeks we will host the calculator website that from html (subject to change). Maintenance would adding more complex math feature or particular characters.
+5.Most of the work will be setting up the calculator on the puppet instances.
