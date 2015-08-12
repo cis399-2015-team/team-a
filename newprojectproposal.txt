@@ -1,0 +1,5 @@
+1.We are going to create a Jabber instant messaging service on one of our instances. We will test it by checking if the authorized members are able to log in and instantly chat amongst each other.
+2. The user population would be only us and other people we add to the authorization key document for the instance.
+3. There shouldn’t be too many security issues as long as the Jabber instance requires key authentication and has no password so no one can brute force hack it.
+4.Downloading and installing the jabber package, possibly making a puppet module for the the jabber instance. Maintaining the instance would involved updating the jabber package with apt-get and adding member to the authorization key file so more people can log onto the server and chat.
+5.Administratively we would have to manually add a member to our authorization key text as  well as making sure members are connecting to the right port. Users will need a key pair from amazon to be able to be authorized to log onto the server.
