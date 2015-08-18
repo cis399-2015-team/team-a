@@ -1,0 +1,19 @@
+1. The goal was to set up and run a XMPP and also puppet-ize the configuration text, so that the XMPP was able to edited through puppet. For testing we installed chat clients on our computers and then connected to the chat server and chatted from there. All the goals were other then being able to puppet-ize our XMPP server due to error we couldn’t solve, but we did get a XMPP server running on its own.
+2. Opposed to using other forms of instant messaging and communication this chat server much more private and smaller only having users that us, the admins, allow to join other than the users just being able to sign up. Issues that would a raise would be people forgetting their password, people requesting to be able to join the server. Being that weren’t able to puppet-ize our chat server if our single chat server goes down there is no other server that can the load for it and our users won’t able to chat.
+3. One issue would be people brute forcing trying to log on with different username and password combinations. If needed XMPP can have a certificate signing method similar to the the key pairs on our instances.
+4. To maintain the server occasionally we will need to update using apt-get update/upgrade, manually adding/editing user accounts, and can add more chat options (like emojis). 
+5.
+ADMIN
+
+link to chat server administration page:
+ec2-52-26-78-214.us-west-2.compute.amazonaws.com:5280/admin
+
+username: admin
+password: teama5280
+
+CILENT
+The user needs to download one of the following XMPP clients at https://xmpp.org/xmpp-software/cilents/
+
+Email us with your desired username and we will email you back with your username and password.
+
+To connect to our XMPP (given we’ve added your account to our system) register the client to this address ec2-52-26-78-214.us-west-2.compute.amazonaws.com and chat away.
